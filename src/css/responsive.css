@@ -1,0 +1,19 @@
+/*******************************
+	All Responsive Custom Code is Here
+*******************************/
+/* Responsive Css */
+@media(max-width:992px){
+	a.btn.btn-light.downloadcv{
+		margin-left:0px !important;
+		margin-top:0;
+	}
+}
+@media(max-width:768px){
+	
+}
+@media(max-width:480px){
+
+}
+@media(max-width:320px){
+
+}

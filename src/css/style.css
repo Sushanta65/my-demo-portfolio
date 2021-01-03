@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#fafafa;
+}
+p{
+    margin:0 !important;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 13px;
+    color: #777;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.navbar-brand h2{
+    color: #FD7E10;
+    font-weight: 600;
+}
+.iamSushanta{
+    font-weight: 600;
+}
+a.btn.text-uppercase {
+    background: #FD7E10;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.carousel-item{
+    overflow: hidden;
+}
+#aboutSection{
+    background: #ddd;
+}
+.aboutMe{
+    color:#777879 !important;
+}
+hr {
+    margin-top: 0;
+    border: 1px solid orange;
+    width: 20%;
+    margin: auto;
+}
+
+.susImg{
+   
+    max-width: 100%;
+    height: auto;
+    border-left: 10px solid #fd7e10;
+    border-bottom: 10px solid #fd7e10;
+}
+
+.mdec{
+    font-size: 13px;
+}
+.btnSection {
+    margin-top: 15px;
+}
+a.btn.btn-warning.hireme2 {
+    background: #fd7e10;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 24px;
+    padding: 5px 20px;
+    font-size:14px;
+}
+a.btn.btn-light.downloadcv {
+    background: #fff;
+    color: #555;
+    text-transform: uppercase;
+    border-radius: 24px;
+    padding: 5px 18px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.ser-box {
+    background: #ddd;
+    padding: 13px 8px 16px 8px;
+    box-shadow:  0px 1px 3px 1px #888;
+}
+.ser-box:hover{
+    box-shadow: 0px 2px 5px 1px #000;
+}
+.ser-box:hover .icon{
+    background: #fd7e10 !important;
+    color:white !important;
+}
+.icon {
+    background: #fafafa !important;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    color: #fd7e10 !important;
+    transition-duration:.5s;
+}
+h3.web_design {
+    color: #777;
+    font-size: 22px;
+    padding: 4px 0px;
+}
+.web_design_para{
+    font-size: 12px;
+}
+#workingSection{
+    background:#eee;
+    margin-top: 76px !important;
+    padding-top:60px !important;
+}
+.icon2 {
+    background: #888;
+    padding: 12px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 24px;
+}
+
+h3.customers {
+    color: #fd7e10;
+    padding: 3px 0px;
+    font-weight: 700;
+}
+#workingSection p{
+    color:#777;
+}
+h3.design-skill {
+    font-size: 23px;
+    color: #777;
+    padding: 3px 0;
+}
+#skillhr{
+    margin-top: 0;
+    border: 1px solid orange;
+    width: 20%;
+    margin: 0;
+}
+p.lead.skill-para {
+    font-size: 12px;
+    margin-top: 8px;
+}
+.dname{
+    font-size: 13px;
+}
+#my-ability-section{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 65px;
+}
+h3.text-capitalize.ability-title{
+    color: #fd7e10;
+}
+p.ability-text {
+    font-size: 13px;
+}
+p.edu-para {
+    font-size: 12px;
+    margin-top: 8px !important;
+}
+.education{
+    font-size: 23px;
+    color: #777;
+    padding: 2px 0;
+}
+.resume-box {
+    background: #ddd;
+    padding: 17px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 3px 8px -2px #000;
+}
+.resume-box:after {
+    content: '';
+    clear: both;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: red;
+    border-width: 0px 20px 20px 0;
+    border-style: solid;
+    border-color: #fd7e10 #fd7e10 #ddd #ddd;
+    transform: rotate(-90deg);
+}
+/* .resume-box:before {
+    content: '';
+    clear: both;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    border-width: 0px 20px 20px 0;
+    border-style: solid;
+    border-color: #fd7e10 #fd7e10 #ddd #ddd;
+    
+} */
+p.resume-date {
+    font-size: 13px;
+    color: #777;
+}
+h3.resume-title {
+    font-size: 18px;
+    color: #fd7e10;
+    margin-top: 5px;
+}
+p.resume-text {
+    font-size: 11px;
+    margin-bottom: 5px !important;
+    color:#777;
+}
+.blog-box {
+    background: #ddd;
+    box-shadow: 0px 3px 5px 0px #9a9a9a;
+}
+.blog-box:hover{
+    box-shadow: 0px 4px 6px 0px #000;
+}
+h3.text-uppercase.blog-h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    padding: 15px 10px 0px 10px;
+    /* font-family: arial black; */
+}
+p.lead.blog-para {
+    font-size: 12px;
+    padding: 0 6px;
+    padding-top: 3px;
+}
+a.btn.btn-outline-secondary.blog-readmore.btn-sm {
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+section#copyright {
+    background: #000;
+}
